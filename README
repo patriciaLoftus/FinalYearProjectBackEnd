@@ -1,0 +1,15 @@
+1. With postgreSQL create a database name Dublin Bus with a
+username: postgres
+password: postgrespw
+
+2. Run the command:
+    pg_restore -h localhost -p 5433 -U postgres DublinBus backup.sql
+
+    Enter the password : postfrepw if prompted
+
+
+3. Run the rest_service.rb to ruby to web service
+
+
+
+
